@@ -23,7 +23,3 @@ libraryDependencies += "com.typesafe.akka" %% "akka-stream" % akkaVersion
 
 libraryDependencies += "com.typesafe.akka" %% "akka-slf4j" % "2.5.23"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
-
-// for Loan Pattern Joshua Suereth’s ARM library.
-// 'managed' method automatically closes the file.
-// libraryDependencies += "com.jsuereth" %% "scala-arm" % "2.0"

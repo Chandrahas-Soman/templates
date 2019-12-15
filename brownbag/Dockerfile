@@ -1,5 +1,8 @@
 FROM ubuntu:latest
-MAINTAINER engineering "engineering@werai.net"
+
+ARG PORT_NUMBER
+#ARG APP_CONF_FILE
+#ENV APP_CONF_FILE ${APP_CONF_FILE}
 ENV DEBIAN_FRONTEND noninteractive
 
 # resolve https error when using 16.04
@@ -31,7 +34,7 @@ ADD . .
 # to create brownbag jar file
 RUN sbt clean compile assembly
 
-EXPOSE 9001
+EXPOSE ${PORT_NUMBER}
 
 RUN echo `find . -name brownbag-assembly-0.1.jar`
 

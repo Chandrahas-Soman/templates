@@ -1,4 +1,4 @@
-package ai.wer
+package util
 
 object Control {
   // Loan Pattern

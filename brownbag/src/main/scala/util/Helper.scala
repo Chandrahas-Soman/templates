@@ -1,4 +1,4 @@
-package ai.wer
+package util
 
 import org.slf4j.{Logger, LoggerFactory}
 import scala.io.Source

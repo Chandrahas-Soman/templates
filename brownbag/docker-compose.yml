@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       context: ./
     ports:
-    - 9001:9001
+    - ${PORT_NUMBER}:${PORT_NUMBER}
     networks:
       app_nw:
     deploy:
