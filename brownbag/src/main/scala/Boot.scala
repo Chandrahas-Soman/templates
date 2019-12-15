@@ -28,20 +28,11 @@ import scala.concurrent.duration.Duration
 
 object Boot{
 
-  //private val logger =  LogManager.getLogger(this.getClass.getName)
-  //private val logger = LoggerFactory.getLogger(this.getClass.getName)
   val logger = LoggerFactory.getLogger(getClass)
-
 
   def main(args: Array[String]): Unit = {
 
     val APPLICATION_NAME = "brownbag"
-
-    /*
-    val context = LogManager.getContext(false).asInstanceOf[LoggerContext]
-    val file = new File("../resources/log4j2.properties")
-    context.setConfigLocation(file.toURI)
-    */
 
     // needed to run the route
     implicit val system = ActorSystem("my-actor-system")
@@ -55,14 +46,6 @@ object Boot{
 
     // our server server
     val bindingFuture = Http().bindAndHandle(routes, "0.0.0.0", 9001)
-
-
-    logger.trace("log written by: trace")
-    logger.debug("log written by: debug")
-    logger.info("log written by: info")
-    logger.warn("log written by: warn")
-    logger.error("log written by: error")
-
 
     /* graceful shutdown function to be called from signal handler and shutdown hook */
     def properShutdown = {
@@ -98,13 +81,10 @@ object Boot{
     logger.info(s"Application ${APPLICATION_NAME} is listening on port 9001")
 
     /*
-    println("Application has started on port 9001")
-
     StdIn.readLine() // let it run until user presses return
     bindingFuture
       .flatMap(_.unbind()) // trigger unbinding from the port
       .onComplete(_ => {println("shutting down!");system.terminate()}) // and shutdown when done
-
      */
   }
 
