@@ -1,0 +1,761 @@
+2019-12-14 18:46:12,579 TRACE[run-main-0] Boot$ - log written by: trace
+2019-12-14 18:46:12,590 DEBUG[run-main-0] Boot$ - log written by: debug
+2019-12-14 18:46:12,590 INFO [run-main-0] Boot$ - log written by: info
+2019-12-14 18:46:12,591 WARN [run-main-0] Boot$ - log written by: warn
+2019-12-14 18:46:12,592 ERROR[run-main-0] Boot$ - log written by: error
+2019-12-14 18:46:12,616 INFO [run-main-0] Boot$ - Application brownbag is listening on port 9001
+2019-12-14 18:46:25,809 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.APIDefinition.pingSwagger()
+2019-12-14 18:46:25,861 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - adding ModelConverter: com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,863 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,864 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,868 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,869 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,869 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:25,871 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,871 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,874 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,912 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,912 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,912 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,914 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,914 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,914 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,915 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,916 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,917 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,918 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,918 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,918 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,918 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,918 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,918 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,922 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,923 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,923 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,923 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,923 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,924 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,924 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,925 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,925 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,925 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,925 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,925 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,925 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,926 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,926 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,927 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,927 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,927 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,927 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,927 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,927 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,928 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:25,934 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.CountWordsTrait.CountWordsMethod()
+2019-12-14 18:46:25,934 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,935 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,936 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,936 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,936 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,936 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,936 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,936 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,937 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,937 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,937 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,938 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,939 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,939 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,939 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,940 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,941 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,941 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,941 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,942 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,942 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,942 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,942 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,942 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.Object
+2019-12-14 18:46:25,942 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.Object]
+2019-12-14 18:46:25,943 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:25,952 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.String
+2019-12-14 18:46:25,952 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2019-12-14 18:46:25,966 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.HostnameTrait.HostnameSwagger()
+2019-12-14 18:46:25,966 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,967 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,968 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,968 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,968 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,969 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,969 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,969 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,969 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,969 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,970 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,970 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,970 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,970 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,970 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,970 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,971 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,971 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,971 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,971 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,971 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,971 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,972 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,972 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,972 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,972 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,973 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,973 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,973 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,973 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,973 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,974 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,975 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:25,976 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.LogGeneratorTrait.GenerateLogsSwagger()
+2019-12-14 18:46:25,976 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,976 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,976 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:25,977 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,977 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:25,977 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,977 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,977 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,978 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,978 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,978 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,978 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,979 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,979 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,979 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,979 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,979 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:25,980 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,981 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:25,981 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:25,981 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:25,982 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:25,983 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,983 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,983 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,983 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,983 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:25,984 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:25,984 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:25,984 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:26,104 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.APIDefinition.pingSwagger()
+2019-12-14 18:46:26,104 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,104 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,104 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,104 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,105 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:26,105 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,105 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,105 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,107 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,107 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,107 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,107 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,107 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,107 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,108 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,108 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,108 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,108 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,108 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,109 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,110 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,110 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,110 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,110 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,111 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,111 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,111 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,111 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,111 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,112 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:26,113 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.CountWordsTrait.CountWordsMethod()
+2019-12-14 18:46:26,113 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,113 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,113 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,113 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,113 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:26,114 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,114 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,114 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,115 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,116 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,116 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,116 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,117 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,118 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,118 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,118 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,119 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,119 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,119 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,120 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,120 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,120 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,120 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,120 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,121 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.Object
+2019-12-14 18:46:26,122 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.Object]
+2019-12-14 18:46:26,122 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:26,122 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.String
+2019-12-14 18:46:26,122 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2019-12-14 18:46:26,122 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.HostnameTrait.HostnameSwagger()
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,123 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,124 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,125 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,125 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,125 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,125 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,125 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,125 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,126 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,127 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,128 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:46:26,129 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.LogGeneratorTrait.GenerateLogsSwagger()
+2019-12-14 18:46:26,129 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,129 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,130 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:46:26,130 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,130 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:46:26,130 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,130 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,130 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,131 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,132 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,133 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,133 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:46:26,133 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,133 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:46:26,133 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:46:26,133 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:46:26,134 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:46:26,135 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,136 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,136 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,136 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,136 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:46:26,136 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:46:26,137 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:46:26,137 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,315 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.APIDefinition.pingSwagger()
+2019-12-14 18:47:21,315 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,316 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,316 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,316 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,316 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,317 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,317 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,318 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,320 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,321 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,321 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,321 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,321 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,321 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,322 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,323 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,323 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,324 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,324 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,324 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,324 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,325 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,325 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,325 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,326 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,327 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,327 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,328 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,328 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,328 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,328 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,328 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,329 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,329 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.CountWordsTrait.CountWordsMethod()
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,330 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,331 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,331 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,331 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,331 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,332 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,333 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,334 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,334 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,334 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,334 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,334 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,335 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.Object
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.Object]
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.String
+2019-12-14 18:47:21,336 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2019-12-14 18:47:21,337 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.HostnameTrait.HostnameSwagger()
+2019-12-14 18:47:21,337 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,338 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,338 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,338 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,338 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,338 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,338 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,339 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,340 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,341 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,341 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,341 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,341 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,341 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,341 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,342 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,342 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,342 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,342 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,343 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,344 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,344 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,344 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,344 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,344 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.LogGeneratorTrait.GenerateLogsSwagger()
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,345 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,346 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,346 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,346 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,346 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,346 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,346 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,347 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,347 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,347 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,347 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,347 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,347 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,348 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,349 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,349 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,349 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,349 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,349 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,350 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,350 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,350 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,350 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,351 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,351 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,351 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,351 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,351 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,351 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,352 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,352 DEBUG[my-actor-system-akka.actor.default-dispatcher-6] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,411 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.APIDefinition.pingSwagger()
+2019-12-14 18:47:21,411 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,411 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,411 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,411 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,411 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,412 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,412 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,412 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,413 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,414 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,415 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,416 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.CountWordsTrait.CountWordsMethod()
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,417 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,418 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,419 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,420 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.Object
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.Object]
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty class java.lang.String
+2019-12-14 18:47:21,421 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class java.lang.String]
+2019-12-14 18:47:21,422 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.HostnameTrait.HostnameSwagger()
+2019-12-14 18:47:21,422 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,422 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,422 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,422 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,422 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,423 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,423 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,423 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,424 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,424 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,425 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,425 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,425 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,425 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,426 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,426 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,427 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,427 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,427 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,428 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,429 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,429 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,429 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,430 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,430 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,430 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,430 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,431 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,431 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,431 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,431 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,432 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,432 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,432 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,432 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,432 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,432 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,433 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,433 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:21,433 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - picking up response class from method public abstract scala.Option swagger.LogGeneratorTrait.GenerateLogsSwagger()
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>]
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [reference type, class scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>><[simple type, class scala.Function1<akka.http.scaladsl.server.RequestContext,scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>]>], scala.Option
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,434 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,435 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverters - ModelConverters readAll with JsonView annotation from scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve scala.Option<scala.Function1<akka.http.scaladsl.server.RequestContext, scala.concurrent.Future<akka.http.scaladsl.server.RouteResult>>>
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolve class scala.Option
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - trying extension com.github.swagger.akka.SwaggerScalaModelConverter@81122a0
+2019-12-14 18:47:21,436 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@e1b6c4ad
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel Option io.swagger.models.ModelImpl@7bc4a15b
+2019-12-14 18:47:21,437 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@fe9586a3
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - Can't check class [simple type, class boolean], boolean
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.ModelResolver - resolveProperty [simple type, class boolean]
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.c.ModelConverterContextImpl - defineModel OptionFunction1RequestContextFutureRouteResult io.swagger.models.ModelImpl@98a36351
+2019-12-14 18:47:21,438 DEBUG[my-actor-system-akka.actor.default-dispatcher-3] i.s.j.Reader - trying to decorate operation: io.swagger.jaxrs.DefaultParameterExtension@69218826
+2019-12-14 18:47:42,104 INFO [shutdownHook1] Boot$ - Application brownbag properShutdown
+2019-12-14 18:47:42,106 INFO [shutdownHook1] Boot$ - Application brownbag has Stopped

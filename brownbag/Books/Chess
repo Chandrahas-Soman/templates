@@ -1,0 +1,1491 @@
+CHESS
+by Wikibooks contributors
+From Wikibooks,
+the open-content textbooks collection
+Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free
+Documentation License, Version 1.2 or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is
+included in the section entitled "GNU Free Documentation License".
+Image licenses are listed in the section entitled "Image Credits."
+Principal authors: WarrenWilkinson (C) · Dysprosia (C) · Darvian (C) · Tm chk (C) · Bill Alexander (C)
+Cover: Chess pieces – left to right: king, rook, queen, pawn, knight and bishop.
+Photo taken by Alan Light.
+The current version of this Wikibook may be found at:
+http://en.wikibooks.org/wiki/Chess
+Contents
+Chapter 01: Playing the Game..............................................................................................................4
+Chapter 02: Notating the Game..........................................................................................................14
+Chapter 03: Tactics.............................................................................................................................19
+Chapter 04: Strategy........................................................................................................................... 26
+Chapter 05: Basic Openings............................................................................................................... 36
+Chapter 06: The Endgame.................................................................................................................. 61
+About the book................................................................................................................................... 76
+History & Document Notes........................................................................................................... 76
+Authors & Image Credits...............................................................................................................77
+GNU Free Documentation License................................................................................................78
+Chapter 1
+1 PLAYING THE GAME
+live version • discussion • edit lesson • comment • report an error • ask a question
+Overview
+Chess, unlike many other games, does not involve chance. It does not hinge on the roll of dice
+or which card is drawn. The outcome completely depends on the decisions of both the players.
+However, because of its vast complexity, the far-reaching consequences of some decisions are
+practically unforeseeable.
+One player ("White") has the white pieces while the other ("Black") has the black pieces. In
+friendly games the choice of colors can be made by any method, such as flipping a coin - if there is
+no coin at hand, another typical way of deciding would be to conceal a black piece in one hand and
+a white piece in the other and ask one's opponent to select a hand, the colored piece selected will be
+the opponent's color. In competitive games the players are assigned their colors.
+Order of play
+Once all the pieces have been arranged, White makes the first move. White always makes the
+first move; this is important for notation, and any chess player will insist upon it. After White has
+made their move, Black will then make a move. The gameplay will continue in alternating fashion,
+White making a move, followed by Black.
+General movement rules
+• A move consists of moving a single piece, in accordance with its rules of movement, to
+a square that is unoccupied or occupied by an enemy piece.
+• If a piece is moved onto a square occupied by an enemy piece, the latter piece is
+removed from play and the first piece replaces it. The removed piece is said to have been
+captured or taken.
+• With the exception of the knight, no piece may make a move to a non-adjacent square
+unless all the intervening squares are vacant (pieces may not 'jump over' other pieces).
+• No player may make a move that leaves their king in check (see below).
+There are some exceptions to these rules, where a player's turn can consist of two pieces
+moving (castling), where a piece moves to an unoccupied square but still captures (en passant
+capture), or where a piece moves to a square and becomes a different unit (promotion), all of which
+are covered below.
+4 | Chess
+Playing The Game
+The board
+Traditionally, the game is played on a board of 64 alternating black and white squares turned
+with a white square to each player's far right. "White on right" is a helpful saying to remember this
+convention. The light and dark squares on the chessboard and the light and dark chess pieces are
+traditionally referred to as "white" and "black" respectively, although in modern chess sets almost
+any colors may be used. The horizontal rows of squares are called ranks and are numbered 1-8; the
+vertical rows of squares are called files and given the letters a-h.
+The pieces
+The movement of the individual pieces is described below. In all the board diagrams shown,
+the squares to which the piece in question can move are indicated with x's.
+King
+The king can move one square at a time in any direction, with certain restrictions.
+The king is the most important piece belonging to each player, though not the most powerful. If
+a player moves a piece such that it threatens to capture his opponent's king, that king is said to be in
+check. If a player's king is in check, he must immediately remove the check by moving the king,
+blocking the check with another piece, or capturing the checking piece. As mentioned above,
+players may not place their own king in check; however, they may check their opponent's king. Two
+kings may never occupy adjacent squares, since they would have put themselves in check by
+moving there.
+If the king is placed in check and cannot escape, it is said to have been checkmated (or "mated"
+for short). The first player to checkmate the opponent's king wins the game. Note that the king is
+never actually captured, since it is obliged to move out of check whenever possible (and the game
+ends when it is impossible).
+The White king in the following diagram cannot move upwards or to the left since it would be
+in check from the bishop, or diagonally downwards which would leave it adjacent to the Black king.
+Wikibooks | 5
+Chapter 1
+Capturing Pieces
+The king may capture any opponent's piece adjacent to it, as long as doing so does not place
+himself in check.
+Knight
+The knight has a unique L-shaped move; two squares in one direction either horizontally or
+vertically, and one square in another direction perpendicular to the first. The knight is the only piece
+that may jump over other pieces.
+6 | Chess
+Playing The Game
+Capturing Pieces
+The knight captures any opponent's piece that it lands on during its L-shaped move.
+Bishop
+The bishop can move any number of squares diagonally. Each side starts the game with one
+light-squared bishop and one dark-squared bishop. Note that the bishop is restricted to the color of
+squares on which it began. For example, the bishop in the following diagram stands on a light
+square, and can only move to other light squares.
+Capturing Pieces
+The bishop may not jump over any piece of either color. It captures any opponent's piece that it
+encounters during the movement described above, and then occupies the captured piece's square.
+Rook
+The rook can be moved any number of squares horizontally or vertically, but not diagonally.
+Wikibooks | 7
+Chapter 1
+Queen
+The queen is the most powerful piece, being able to move any number of squares in any lateral
+or diagonal direction. It is best described as the combination of a rook's and bishop's movement
+capabilities.
+Pawn
+8 | Chess
+Playing The Game
+Pawns can move one square straight forward, or optionally and on their first move only, two
+squares straight forward. The pawn can move one square diagonally forward to capture a piece, but
+cannot capture a piece by moving straight forward. For this reason, two opposing pawns on a file
+may become blocked by each other. If a pawn makes it to one of the eight squares along the far
+edge of the board from their initial position, the pawn is promoted. A promoted pawn is replaced, as
+part of the same move which brought it to the promotion square, with a knight, bishop, rook or
+queen of the same color which need not be a previously captured piece. Thus a player can acquire
+two queens (or up to nine, if he so desires, since there are eight pawns to promote).
+In the diagram below the White pawn is prevented from moving forwards by the Black pawn
+immediately in front of it which it cannot capture, but it captures the other Black pawn by moving
+diagonally forwards.
+Special moves
+Kingside castling: O-O
+Wikibooks | 9
+Chapter 1
+Queenside castling: O-O-O
+Castling
+Castling is a move involving the king and either of the rooks. Castling performed with the
+king's rook is kingside castling, performed with the queen's rook it is queenside castling.
+Subject to restrictions detailed below, a player may move his king two squares towards the
+rook, and subsequently, on the same turn, move the rook to the square over which the king has just
+passed.
+The king must be the first piece moved; not the rook. If the rook is moved first, then the king
+must stay where it is. This mainly applies in "strict rules of chess" where if a piece is touched, it
+must be moved.
+The restrictions specific to castling are:
+1. Neither the king nor the participating rook may have moved previously
+2. The king must not be in check at the start of the move, though it may have been in
+check previously in the game
+3. The square over which the king passes must not be under attack ('in check') from an
+enemy piece
+4. The squares between the king and rook must be vacant
+And as with any move, the king may not place itself in check.
+En passant capture
+This is French for "in passing"; basically, you capture an enemy pawn as it is passing you.
+When a pawn advances two squares onto the same rank as an opposing pawn on an adjacent
+file, this opposing pawn may, on that player's next move only, capture the advancing pawn as
+though it had only moved one square (provided the move is otherwise legal). The pawn's ability to
+move two squares on their first move was a relatively late addition to the game of chess. En Passant
+was introduced to prevent abuses of the new rule.
+10 | Chess
+Playing The Game
+In the following example, the Black pawn advances two squares, and is captured by the White
+pawn which moves diagonally forwards and to the right (as if the Black pawn had been there). This
+move is only allowed on the turn in which the option is presented.
+Initial position
+In the initial position each side has eight pawns, two rooks, two knights, two bishops, a queen
+and a king arranged as shown in the diagram below. Note that the only pieces on either side which
+can initially move are the pawns and knights.
+Beginners usually set up the board incorrectly; it is a complex position to remember. The
+following anectotes may help you remember where the pieces go.
+• White on the Right It is important that the bottom-right-hand square is light-colored.
+• Knights live in castles One knight is placed next to each rook (rooks look like the
+Wikibooks | 11
+Chapter 1
+towers of a castle.)
+• Queens on their color The White Queen goes on a White Square, Black Queen goes on
+a Black Square
+• Bishops are advisers to the Royalty Bishops surround the King and Queen.
+• White King on the Right From the White Player's perspective, both Kings are on the
+right, and from the Black Player's perspective, the Kings are on the left.
+Conclusion of the game
+Play continues to alternate between White and Black until one of the following outcomes is
+reached:
+• One player's king is checkmated. The game is lost by that player.
+• In a competitive game, one player runs out of time. The game is lost by that player.
+• One player resigns, which is equivalent to quitting the game. A player may resign on
+either his or his opponent's turn. Resignation is often symbolized by the resigning player
+knocking down his king.
+• The player whose turn it is is in stalemate, meaning that he has no legal move and is not
+in check. The game is a draw.
+• The players agree to draw the game. Either player may offer a draw to his opponent
+upon completion of his move. If the offer is accepted, the game is drawn. Draw offers
+cannot be rescinded.
+• A player successfully claims that the game is a draw under one of the following criteria:
+• His opponent does not have sufficient pieces to checkmate him by any legal
+sequence of moves.
+• 50 moves have been played by each player since a piece was captured or a pawn
+moved.
+• The current position has occurred twice before with the same player to move.
+Chess Etiquette
+Generally, chess games at tournaments are conducted under the following rules:
+• Touch move - If a player touches a piece he must move it. If he places a piece on a
+square, he must move it to that square. If you need to center a piece on its square, it is
+traditional to say j'adoube (I adjust).
+• Be silent when your opponent is on the move - You can only adjust pieces, offer a
+draw, or claim a draw when it is your turn to move.
+A friendly game may be played any way that is mutually agreeable. Generally it is considerate
+to avoid distracting your opponent.
+12 | Chess
+Playing The Game
+Glossary
+• Capture - To move one's piece into the same square as one of one's opponent's pieces.
+• Check - The king is 'in check' when it is being attacked by an enemy piece.
+• Checkmate - The player whose turn it is can make no legal move and the king is in
+check.
+• Stalemate - The player whose turn it is can make no legal move, but the king is not in
+check.
+Wikibooks | 13
+Chapter 2
+2 NOTATING THE GAME
+live version • discussion • edit lesson • comment • report an error • ask a question
+Writing the game down is of importance to the chess student, as it allows review of game
+strategy of the student as well as others' play.
+Algebraic notation
+There are many older systems of writing down chess games, but the current standard, which
+will be introduced here, is algebraic notation. Let's look at a sample game in progress to get a feel
+for this system.
+Say we have the following game (which has proceeded for a while)
+Simple Game
+Each square is uniquely identified in algebraic notation by a coordinate comprising a letter and
+a number. These letters and numbers are displayed along the borders of the above diagram. For
+example, the square in the bottom left corner of the board is a1, and the square in the top right h8.
+The White king is on e1 and the Black king on f7.
+It is White's turn to move. White decides to move the d3 bishop to c4 in order to check Black's
+king. Let's suppose this is White's 30th move. So we can write
+30. Bc4+
+(Note that in some books you may see instead of the letter B a stylized icon of a bishop - the
+notations however are equivalent) This means that on White's 30th move, a bishop has been moved
+to the square c4. Because there is only one bishop that could move to c4, we don't need to write
+14 | Chess
+Notating The Game
+where that bishop came from. The + signifies the check. A # signifies checkmate. In older works, a
+++ signified checkmate.
+Simple Game
+White's bishop is now, unfortunately, in the Queen's line of fire. Black decides to capture it. So
+for the Black's 30th move, we can write
+30... Qxc4
+This means that on Black's 30th move, a queen has been moved and captured (which the x
+signifies) the piece at c4. When Black's move is written separately from White's, three dots are
+placed between the number and the move thus: 30...Qxc4. Sometimes, the capture is designated
+with a : instead, thus: Q:c4, or even rarer: Qc4:
+(You may see in some chess books symbols such as ??, ?, ! or !!. These are like side comments
+- question marks signify potentially poor moves, and exclamation marks signify good ones. !? may
+signify an unclear move. Since White's move was rather poor, we could write 30. Bc4+? Qxc4 to
+say that White's move was poor.)
+Wikibooks | 15
+Chapter 2
+Now the board looks like this.
+Simple Game
+White is in trouble now, and decides to start to flee to f2. We can write
+31. Kf2
+for such a move. If Black's queen decides to check White's king at this point, by moving the
+queen to c2, we write
+31... Qc2+
+Annotation shorthand
+If a move is followed by a ! then this indicates that the move was surprisingly good at times. If
+followed by a ? then this indicates that a move was questionable or of poor strategy. !! and ?? mean
+the same, with greater emphasis. A !? marks an interesting move that may be sub-optimal, and a ?!
+marks a dubious move that may not be possible to refute.
+1-0 signifies a win for white, 0-1 a win for black, and 1/2 a draw. = indicates positional equality
+between the players, +/– means that white is considered to have the advantage, and –/+ indicates an
+advantage to black.
+Sometimes moves can be ambiguous - that is, two pieces of the same designation can move to
+one square. In that case, it is customary to specify which piece moved there by designating the file
+alone if it identifies which piece is used. If the file is not enough to identify the piece, then the file
+and rank are both written in. This can be done with parentheses or without.
+16 | Chess
+Notating The Game
+Special moves
+• Castling is designated by either 0-0 or 0-0-0, depending on whether castling occurred
+kingside or queenside, respectively.
+• En passant capture is designated by the suffix e.p. if there is ambiguity.
+• Promotion of a pawn is denoted by the original move, with the designation of the piece
+the pawn became at the end. Check or !/? designations are placed after the name of the new
+piece.
+Designations
+The designations for each of the pieces are:
+R for rook (castle)
+N for knight
+B for bishop
+Q for queen
+K for king
+No capital letter for pawn.
+Descriptive Notation
+An older form of notation you will run into quite frequently is the descriptive notation. It is
+useful to know because older books use it.
+In this form, instead of the files being a, b, c etc., they are Queen rook (QR), Queen Knight
+(QN), Queen Bishop (QB), Queen (Q), King (K), King Bishop (KB), King Knight (KN) and King
+Rook (KR). The ranks are labeled from your point of view so that the square e4 (in algebraic) is
+White's K4 and Black's K5.
+To record the moving of a piece, you write the piece, and to where it moves. 1. P-K4 means
+move a pawn to the 4th rank in the King's file. N-QB3 means move your Knight to the third rank in
+the Queen's Bishop file. To take you specify the piece taking, and the piece to be taken. QRPxN
+means pawn in the Queen Rook file takes Knight. Excessive notation is left out so that if only one
+pawn could legally take a Knight the move is recorded as PxN.
+In order to compare the two systems let's look at the same game in both algebraic and
+descriptive notation
+Algebraic
+1. e4 e6
+2. d4 d5
+3. Nc3 Bb4
+4. Bb5+ Bd7
+5. Bxd7+ Qxd7
+Wikibooks | 17
+Chapter 2
+6. N(g)e2 dxe4
+7. 0-0
+Descriptive
+1. P-K4 P-K3
+2. P-Q4 P-Q4
+3. N-QB3 B-N5 (Note here that only one bishop can go to a QN5 so it is unnecessary to specify
+the Queen Knight file rather than the King Knight file)
+4. B-N5ch B-Q2 (check is given by ch)
+5. BxBch QxB
+6. KN-K2 PxP
+7. 0-0
+Coordinate Notation
+A different type of notation uses only the squares that the pieces were on to denote movements.
+For example, to denote the earlier 7 moves, the following notes are shown:
+1. e2-e4 e7-e6
+2. d2-d4 d7-d5
+3. b1-c3 f8-b4
+4. f1-b5+ c8-d7
+5. b5xd7+ d8xd7
+6. g1-e2 d5xe4
+7. 0-0
+ICCF numerical notation
+This notation is international because it does not depend on piece names or specific alphabets.
+A move is denoted by the file, then rank, of its starting square (from 11 at the White queen’s rook
+square to 88 at the Black king’s rook square). 1. e4 is denoted 5254. Castling is denoted by
+specifying the king’s two-square move, and pawn promotion with a fifth number specifying the new
+piece (1=queen, 2=rook, 3=bishop, 4=knight).
+18 | Chess
+Tactics
+3 TACTICS
+live version • discussion • edit lesson • comment • report an error • ask a question
+Guarding
+When one of your pieces is placed so that it attacks a square occupied by another of your
+pieces, the first piece is said to be guarding the other. When your opponent captures the guarded
+piece, you can recapture with the guarding piece. Note that if you have a piece that is pinned to your
+king by an opposing piece (see below for a description of pins), it cannot be said to be guarding
+anything, since it is unable to move or capture.
+Batteries
+Batteries are formed when two or more pieces work together. The most common kind of
+battery is the doubling of rooks on a file. Other batteries can be formed by rook-queen or bishopqueen.
+A triple battery can be constructed with the queen and both rooks. It is often advantageous to
+place the queen behind one or both rooks.
+The Exchange
+In pretty much any game, a player will have the opportunity to take one of his opponents pieces
+in exchange for one of his own pieces. This should however NOT be done for its own sake! Initiate
+an exchange only when it benefits you. Benefits can include, but are not limited to:
+• Material advantage - queen for a minor piece, queen for rook, rook for a minor piece, a
+piece for a pawn or two, etc.
+• Doubling pawns - Take when taking back means the doubling (or tripling) of your
+opponent's pawns on the same file.
+• Opening up the king's defenses - Take when taking back means moving a pawn that
+exposes the king.
+• Removing a defender - Take when the piece being taken is providing an essential
+service for the opponent.
+• Blunting an attack - When you are being attacked, often a well timed exchange will
+leave your opponent with too few pieces to keep up the attack.
+• Gaining space - In a cramped position, having more pieces can actually be a
+disadvantage because the pieces get in the way of each other. If your opponent has a space
+advantage, exchanging pieces can lessen the advantage and make the resultant less
+confining.
+• Improving a material advantage - if you are ahead material, exchanging pieces will
+usually benefit you (note - pieces, NOT pawns). Similarly, if you have an extra pawn, trade
+Wikibooks | 19
+Chapter 3
+pieces that may otherwise be used as a sacrifice to prevent pawn promotion.
+Forks
+The Royal Fork
+Sometimes a piece can be in position to attack two enemy pieces at once. This is called a fork.
+All pieces can fork, even pawns, but knights have a reputation for making especially vicious forks
+because they can jump over other pieces.
+Forking with check
+Forks on unthreatened squares which attack the king are the most powerful. The opponent must
+then move his king to safety and the other piece in the fork has no chance of escape.
+The Royal Fork
+A royal fork is one involving both your opponent's king and queen. In the example shown here,
+white's knight on f7 has engaged black in a Royal fork. Black will be down the exchange of a queen
+for a knight.
+20 | Chess
+Tactics
+Pinned pieces
+The white knight pinned by the black
+bishop
+A pinned piece is a piece that cannot move because it would expose an attack on an important
+piece by one of the opposing pieces, such that the capture of the important piece would result in
+material gain by the opponent. A very useful device is to pin the opponent's pieces to his king; this
+is known as an absolute pin. For example, imagine white's king on e1, a white knight on c3, and d2
+empty. Black now moves his dark-squared bishop to b4. The white knight is now pinned and cannot
+move. A pawn on e4 is no longer guarded by the knight, which could not capture a black piece
+taking this pawn.
+In contrast to the absolute pin, a relative pin occurs when one player's piece is pinned to one of
+lesser value than the king, such as a queen or rook. If the benefit of moving the pinned piece
+outweighs the loss of material occasioned by the capture of the exposed piece (for example, if a
+forced mate may be achieved), then the pin can be disregarded and the pinned piece moved.
+Wikibooks | 21
+Chapter 3
+Skewers
+Skewer about to happen
+A skewer is similar to a pin, but it is in a sense more powerful. Black has, in a blunderous
+moment, placed his king on d7 in front of his queen on d8. White may now triumphantly slide his
+rook (either one) to d1, skewering Black's king and queen. Since Black cannot block the check, the
+king has to move, exposing the black queen to the attack of the white rook.
+Discoveries
+A discovery is an attack on an enemy piece which is unveiled by moving one of your pieces.
+The power of discoveries is that two targets can be attacked simultaneously. If combined with a
+check they can be lethal.
+Removing the defender
+By first capturing, threatening, or pinning a piece that guards another, you might be able to
+capture the other piece for free.
+22 | Chess
+Tactics
+Sacrifices
+A sacrifice is an exchange of a piece for a non material advantage:
+After 1. Kh1
+After 1. ... Qg1
+After 2. Rxg1
+Wikibooks | 23
+Chapter 3
+After 2. ... Nf2#
+In the first diagram, White just moved 1. Kh1 to get out of check.
+Black sacrifices his queen with 1...Qg1 for a winning positional advantage - White is in check
+and can not take with his king because the knight guards the queen.
+2. Rxg1 - forced - this smothers the king - he cannot move because his own pieces are on every
+square he could go to - any check on an unguarded square now is mate.
+2...Nf2# Checkmate. This queen's sacrifice was also an example of a smothered mate.
+In-between moves
+Before 1... f2
+24 | Chess
+Tactics
+After 2... Bb1! (white resigned)
+An in-between move or Zwischenzug is one that is made unexpectedly in the midst of a
+sequence of moves. But not just any series of moves, one in which the player falling for the
+Zwischenzug feels the sequence is forced, while his opponent demonstrates to him that it certainly
+isn't! Most commonly these fall in between trades where a recapture seems to be the only proper
+means of play.
+Such in-between moves often have a surprising and pleasing effect of increasing the potency of
+a combination beyond the opponent's expectations.
+Borisenkov-Mezenev (diagram, Black to play), went 1... f2, threatening to queen, which White
+countered with 2. Rg8, intending 3. Rf8+, and 4. Rxf1. But White resigned after the zwischenzug
+2... Bb1! which allows Black to queen (3. Kxb1 f1Q+ or 3. Rf8+ Bf5).
+Wikibooks | 25
+Chapter 4
+4 STRATEGY
+live version • discussion • edit lesson • comment • report an error • ask a question
+Material
+Having more material on the board than your opponent means you have more options available.
+You have more opportunities to attack, more pieces to defend and will usually control more of the
+board. Not all pieces have the same material value, however, so figuring out who has a material
+advantage is not as easy as simply counting the white and black pieces on the board.
+In general, the kings do not count when calculating a material advantage because your
+opponent is guaranteed to also have a king and any attack on the king MUST be answered. You
+can't trade a king for a rook, for example.
+There is a lot of discussion about exactly what a piece is worth, but a reasonable place to start
+is as follows:
+Letting the pawn be the basic unit of value, you have the following relative values:
+• Pawn = 1
+• Knight = 3
+• Bishop = 3
+• Rook = 5
+• Queen = 9
+While the king's true value is infinite, in terms of its strength as an attacking piece in the
+endgame it is generally reckoned to be stronger than a knight or bishop but weaker than a rook.
+Clearly king activity is vital in an endgame.
+From this we can generalize that trading a bishop for a knight is not usually harmful, but
+trading a bishop for a rook is. We also see that trading a queen for 2 rooks is a good trade for the
+side giving up the queen.
+That being said, there are several things to consider when looking at the material strength of
+any particular game:
+In the end game, pawns gain strength as they advance because they pose the threat of queening,
+so a pawn on the 6th or 7th rank is worth significantly more than a pawn on the second rank - often
+as much as a piece. However, in the opening and middlegame, an advanced pawn is less likely to
+queen and more likely to be in need of being defended. It is also unable to defend the center and
+often leaves "holes" in your territory that can serve as outposts for your opponent's pieces. An
+overadvanced pawn is then often a liability.
+In the opening and middle game, pawns in the center of the board block paths and support
+outposts. So they tend to be more valuable than end pawns. However, in the end game, a wing pawn
+26 | Chess
+Strategy
+is usually the hardest to get to and block or capture and is therefore more likely to queen. So in the
+endgame, the edge pawns are often more valuable than the middle pawns (Note: this is not
+necessarily true in some basic pawn and king endings, where a pawn on the edge leads to only
+drawing options).
+A passed pawn has only pieces stopping it from queening, so it is considered more valuable -
+especially if it is protected with other pawns.
+Games are considered open, closed or semi closed based on whether the central pawns have
+been captured or not. An open game is one where the central pawns are gone leaving long paths
+from one side of the board to the other through the center. Bishops need long paths to reach full
+strength, whereas knights shine when the board is cluttered because they can "jump" over pieces. So
+in general, Bishops are stronger in open games and knights are stronger in closed.
+Knights are more powerful if they have a safe outpost in enemy territory - a knight on the 6th
+rank that can not be attacked by opposing pawns can be as powerful as a rook in the right
+circumstances.
+A bishop never leaves its own color, so if one of the bishops is captured, half the board is now
+out of reach of a bishop. So trading 1 bishop for a knight tends to favor the person losing the knight,
+who is left with two bishops. However, trading the second bishop isn't quite so hurtful. So trading a
+Bishop for a Bishop where one side has only 1 bishop to begin with helps the side with fewer
+bishops.
+Knights can not cover both sides of the board at the same time, while a bishop can, so in an
+endgame where there are pawns on both sides of the board, the bishop is stronger.
+Bishops can not attack pawns that are on the opposite color, while a knight can. Furthermore, in
+a game where there is a short pawn chain, a knight can stand at the head of the chain and attack the
+pawn supporting it, so a knight is often more effective attacking pawns as long as they are limited to
+one side of the board.
+Usually more pieces are more valuable -- two bishops beats a rook, two rooks beat a queen --
+but this is conditioned on proper co-ordination between the pieces. It may be worthwhile to sacrifice
+two pieces for a rook if this results in long-term damage to the enemy's piece co-ordination. Usually
+this means tying down the extra pieces to the defence of weak pawns, so that they cannot co-operate
+in attacking friendly pawns.
+Tempo
+Tempo is the effective number of moves required to reach the position on the board. Moving a
+piece twice to reach a position it could have reached in one results in a net loss of one tempo -
+moving a piece back to its starting place usually results in a loss of all its tempo - unless other
+pieces moved that could not have moved otherwise. Also the capture of a piece means all of the
+tempo it gained is lost as well.
+Wikibooks | 27
+Chapter 4
+Essentially, tempo is one way of showing how many effective moves you have made. So the
+gain of a tempo is basically like getting a move for free. Three tempi is usually considered
+equivalent to a pawn in terms of advantage.
+Example:
+In the position above there have been 2 tempi played on each side, play continues with:
+3. cxd5 Nxd5 4. e4 Nf6
+Now white still has 2 Tempi (one for d4 and 1 for e4) while black only has 1. The captured pieces
+lost the tempo they had gained in moving and the knight lost the tempo it had when it captured.
+28 | Chess
+Strategy
+For argument's sake, lets assume play went as follows:
+5. e5 Nd5 6. Bc4 Nb6 7. Qd3 Na4 8. Nc3 Nxc3 9. Qxc3 e6
+Now black still has only 1 tempo (e6) while white has 6 (2 queen moves, 3 pawn moves and a
+bishop move). This has let white develop 2 pieces, control the center and give black a cramped
+position. Also, while both sides can castle kingside in the same number of moves, White can
+connect his rooks (position them so there is nothing between them on the back rank) 2 moves
+sooner than black. Chances are, white will complete development and launch an attack before black
+is able to. This means white will have an advantage when the middlegame is reached.
+Quality
+Pawn Structure
+Pawn structure is often the backbone upon which the strategy in a game rests. There are several
+things that need to be looked at when evaluating the pawn structure of a game. These include
+whether the game is open or closed, open files, open diagonals, vulnerable potential outposts, pawn
+islands, pawn chains, doubled pawns, backward pawns, passed pawns, protected passed pawns,
+overall majorities, and local majorities.
+A game is considered open if the center pawns (the ones on the d and e files) have been
+captured. A closed game is where they have not been captured. In general, an open game means
+pieces are able to move more easily through the center of the board, which leads to a more active
+and generally tactical game. A closed game means that positional considerations are more
+important. The players generally have more time to build a plan and the game, while often lasting
+longer in general, often hinges on subtleties that are less likely to be noticed by novice players.
+Wikibooks | 29
+Chapter 4
+Usually beginners are encouraged to strive for open games to improve their tactical ability and only
+play closed games after they develop more of a feel for the game.
+An open file is one with no pawns on it. This is basically a path for rooks to move on. This is
+usually their most powerful position. Often play can focus on who gains control of a file because
+this gives the person controlling it an advantage. A half open file is one where only the opponent's
+pawn is on the file. This is often a good second choice for a rook because it attacks the pawn in
+question and often opens up the rest of the way.
+An open diagonal is again a diagonal with no pawns blocking it. This is one that a bishop can
+traverse. Usually an open diagonal that travels through the center of the board is preferable because
+it allows the bishop to move to the greatest degree (see also good vs. bad bishop).
+A vulnerable potential outpost is a square in the opponent's territory that can not be defended
+by an opponent's pawn. This is usually the result of a pawn that has been advanced too far or a
+weakened pawn structure. Placing a knight on an outpost gives the knight attacking potential and
+makes it a relatively stronger piece. Other pieces may also be placed on outposts as well.
+A pawn island is any pawn or group of connected pawns separated from any other pawns by
+an open or half open file. Having two or three pawn islands is usually necessary to activate your
+rooks, but more than that indicates a weak pawn structure. The endpoints of pawn islands are
+typically potential weaknesses and a large number of breaks in your pawn structure means there are
+more places your opponent can penetrate into your territory.
+A pawn chain is a set of pawns linked so each one is protected by a pawn behind it. Pawn
+chains form on diagonals. Pawn chains often contribute to determining which side of the board a
+player will try to open play up on (pawn chains point toward the direction that typically are attacked
+because a bishop can be on the diagonal behind it. This allows the bishop to attack the opponents
+side of the board without worrying about their pawns getting in the way and with relative safety
+from opposing pieces that have to get around the pawn chain to attack the bishop. A pawn chain is
+most effectively attacked at its base (the pawn that has no other pawns protecting it).
+Doubled pawns are pawns on the same file. This happens when a pawn captures. Doubled
+pawns often are seen as weaknesses because the lower pawn can not advance beyond the top one
+and doubling pawns usually leads to openings into your own territory for the opponent to attack.
+However, doubled pawns do have some advantages. For instance, a doubled pawn can advance
+without leaving undefended outposts or backward pawns. Tripled pawns are always weaknesses.
+A backward pawn is one with no adjacent pawns behind it or on the same rank. It often needs
+to be defended with a piece and can not prevent an opposing piece from parking in front of it and
+using that square as an outpost while preventing the pawn from being able to advance.
+A passed pawn is a pawn that has no opposing pawn in front of it and is past any adjacent
+opposing pawns. This pawn has the potential to advance to the 8th rank and queen. It can only be
+stopped by an opposing piece or the king. A protected passed pawn is a passed pawn guarded by
+another pawn. capturing the pawn still leaves you with a passed pawn on recapture. If the only
+opposing piece is the king, neither pawn can safely be captured because that would put the king
+behind the passed pawn. The passed pawn can then advance and the king will never be able to
+30 | Chess
+Strategy
+"catch up" to capture the pawn. The pawn will then safely promote. If you have a passed pawn, you
+may want to trade off pieces to protect it.
+A pawn majority is where one person has more pawns than the other. It is an advantage
+because it is likely to lead to a passed pawn. A player who is ahead a pawn or two may try to trade
+off pieces and then get a passed pawn. A player with fewer pawns will try to hold onto his pieces in
+case he needs to sacrifice one to prevent a pawn promotion.
+A local pawn majority is a majority in one section of the board. If a player has a local pawn
+majority, he may focus play on that side to get a passed pawn. If players have opposing pawn
+majorities (e.g. one has a queenside pawn majority while the other has a kingside majority), each
+side will try to restrict the other's play on their majority side while attempting to focus play on their
+side in an attempt to get a passed pawn.
+Active and passive pieces
+An active piece is one that has the potential to make a threat. A passive one is usually relegated
+to defending a piece (or worse - a pawn).
+In this example, white's bishop on g5 is considered active, while black's bishop on e7 is considered
+passive.
+Piece activity depends on whether it can move and attack. A piece can be rendered passive if it
+is stuck protecting another piece or if it is restricted from being able to get into play by its own
+pawns.
+Good vs. Bad Bishops
+As noted above, a bishop can only travel on squares of one colour. This leads to a situation
+Wikibooks | 31
+Chapter 4
+wherein one bishop may be effectively blocked out of the game by the pawn structure. In general it
+is better to have your pawns on the opposite coloured squares to your bishop. For example, if you as
+black have pawns on e6 and d5, your queen's bishop is likely to be a "bad bishop." It is bad because
+it is hard to do anything constructive with it; developing it to g4 is impossible and "fianchettoing" it
+via b7 is ineffective since your pawn on d5 blocks any influence it may have over the centre.
+When one has a bad bishop there are two methods to improve the game: exchanging the
+offender and freeing up the game. In general it is profitable to try to exchange your bad bishop for
+an opponent's bishop or knight, as your bad bishop has little value. However, it is important to bear
+in mind that in the end game having two bishops is considerably stronger than have two knights or a
+bishop and a knight. Therefore you should always be wary of exchanging bishop for knight in
+situations where an endgame is likely. The other method to rid yourself of this weakness is by
+freeing up the game through making pawn moves.
+Overloaded pieces
+Overloaded pieces are pieces which defend too many other pieces and therefore cannot be
+considered to defend all of them at once. For example, a rook can defend up to 4 pieces, but if one
+is taken, and the rook takes the offending piece, 2 of the other pieces are undefended.
+Initiative
+The player with the initiative is the player who is making the threats to which the other person
+must respond. Having the initiative is advantageous because it forces your opponent to place his
+pieces in essentially defensive formations. A piece that is defending a square generally has less
+mobility (freedom of movement) than a piece attacking the same square.
+Having the first move, it is generally white who has the initiative in the early part of the game.
+Therefore trying to maintain the initiative would be prudent strategy.
+Compensation
+Compensation is a term used in chess to describe the situation in which one player is materially
+down but has advantages in position on the board that make up for this material deficiency.
+Typically having compensation for a piece means that an attack against the enemy's king or
+strong points cannot be repelled or may only be repelled by the enemy returning the material he is
+up. Often compensation can refer to having the initiative or in trapping the opponents king in a
+vulnerable position. A pawn majority on one wing or a passed pawn can also sometimes be
+considered compensation for a minor piece. Generally the player who is down on material has to act
+quickly and avoid exchanging pieces to prevent the enemy from making his material advantage
+count.
+32 | Chess
+Strategy
+Zugzwang
+A Zugzwang situation that occurs when any move a player makes will weaken his/her position,
+however, he/she is compelled to move in accordance to the rules. An example of the zugzwang is as
+follows:
+White moves the pawn, making a zugzwang and forcing Black's king to move.
+Wikibooks | 33
+Chapter 4
+The black king is forced to move away from his current position because he now has no other
+move.
+34 | Chess
+Strategy
+White gains a queen and wins the game easily.
+Combining attack with defense
+A winning strategy in Chess often involves balancing several considerations against each other.
+Moves that maximize immediate material gain might expose a vulnerability or yield a difficult
+position as the game progresses. Similarly, material sacrifices for position may be disadvantageous
+if they cannot be parlayed into an effective attack. Thus, a key consideration should be balancing
+attack with defense. A profitable move would be one that both furthers your attack and solidifies
+your defense.
+Wikibooks | 35
+Chapter 5
+5 BASIC OPENINGS
+live version • discussion • edit lesson • comment • report an error • ask a question
+See also: Opening theory in chess
+The following is an overview of the aims of an opening and some standard openings that you
+can try in your games. All of them are playable and should lead to reasonable games with best play.
+Aims of an opening
+Before looking at some of the more common openings played today it is important to consider
+what you are trying to achieve in the opening of a chess game.
+In some cases, one player will sacrifice a pawn, or in some cases even more, to accomplish the
+goals listed below. Such an opening is called a gambit.
+Development
+You should attempt to move your pieces away from their starting positions to squares in which
+they can participate more fully in the game. Obviously a Knight at c3 is more effective both
+defensively and aggressively than a knight on b1. Avoid moving pieces more than once in the
+opening as this allows your opponent time to develop another piece while you are wasting time.
+Also avoid moving your queen in the opening, it can too easily be chased around the board by other
+pieces which aids your opponents development while wasting moves for you.
+Control the Centre
+The squares in the centre of the board are critical for 2 simple reasons. Firstly Pieces in the
+centre are able to move to more squares than pieces on the edges. (Note a knight on a3 can move to
+only 4 squares, whereas a knight on c3 can move to 8.) Secondly if you control the centre it is easier
+to move pieces from Kingside to Queenside quickly.
+One of the great truths in chess is that attacks along one wing are destined to fail if the centre is
+not sufficiently controlled. This is because the defender with a strong centre will generally be able
+to muster enough defence on that side and at the same time mount a counterattack in the centre
+and/or on the other wing. So if you plan on mounting an attack make sure you control the centre
+Traditionally it was thought that the ideal situation is one where you have a pawn majority in
+the centre, especially with pawns on e4 and d4 (for white). However it has been shown that an
+equally valid strategy is to control the centre with pieces and make minimal pawn moves. The
+thinking is that central pawn moves often lead to permanent positions and can block attacks.
+"Fianchettoing" a bishop by moving it to b2 or g2 after b3 or g3 allows the bishop to keep a
+watchful eye on the centre without fixing a pawn in the centre.
+Castle
+36 | Chess
+Basic Openings
+A King in the centre of the board is open to attack. It is generally a good idea to castle your
+king so as to be able to defend it easier. Some players will sacrifice material in order to prevent the
+enemy king from castling and to attack it ferociously due to its vulnerability. Castling also has the
+added benefit of bringing the rooks together on the first rank so that they are able to combine in
+defence and attack. Once your pieces are developed, king is safely castled, and your rooks are
+combined, the opening is over.
+Protect the King
+It is not always necessary although highly advisable to protect the king through castling. That
+being said, there are other ways to go about protecting the king than castling although they are less
+efficient and will often result in pins.
+King's Pawn Openings
+Spanish Opening (aka Ruy Lopez)
+1.e4 e5 2.Nf3 Nc6 3.Bb5 the main line continues 3...a6 4.Ba4 Nf6 5.0-0
+The move 3...a6 works because if white plays 4.Bxc6 dxc6, 5.Nxe5 will fall to 5...Qd4, forking
+the pawn and the knight.
+Wikibooks | 37
+Chapter 5
+Italian Game
+1.e4 e5 2.Nf3 Nc6 3.Bc4
+There are two key replies: 3...Bc5, known as the Giuoco Piano (Italian for Quiet Game), and
+3...Nf6 headed to a much more involved opening called the Two Knights Defence.
+School children in local clubs often drift into weaker variants of the Giuoco Piano, mostly out
+of insufficient knowledge. A few scholastic trainers have even suggested avoiding the opening, as
+there are fewer crisp strategic concepts compared to many other openings.
+38 | Chess
+Basic Openings
+Russian Game (aka Petroff's Defence)
+1.e4 e5 2.Nf3 Nf6
+The Petroff Defense may look like a counter-attack, and very early on this was supposed to be
+the idea. However, it soon became apparent that the symmetrical nature of the opening produced
+defensive positions. It is considered quite solid, and is a key defensive opening against the
+dangerous first move 1. e4. There are a few gambits which White can try to shift the style of the
+opening. The Cochrane gambit is perhaps the most dangerous. It involves a Knight sacrifice on f7.
+Currently not considered objectively sound, its use is psychological: White dares the opponent to
+spend twenty moves defending against an attack, and this pressure may cause the Black player to
+finally fall victim to a tactical shot.
+Philidor Defence
+1.e4 e5 2.Nf3 d6
+Wikibooks | 39
+Chapter 5
+If Black wants to defend the threatened pawn with a pawn, this is the way to do it (playing
+2...f6? is plain bad). It gives Black a solid but somewhat cramped position. The f8 bishop is
+hemmed in and will be relegated to a defensive role. The Black knight retains the option of going to
+d7 leaving the c-pawn mobile, but it is not without reason that 2...Nc6 is much more common than
+2...d6.
+Danish Gambit
+1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2
+This gambit gives White quick development and control of the center at the cost of two pawns
+initially. However, current opinion reports that to properly beat off the attacking waves, at least one
+and sometimes both pawns must be returned. This involves the liberating pawn push ...d5 by Black.
+Even so, inventive attacking players can still use the resulting open lines to play a complex game.
+Sicilian Defence
+1.e4 c5
+40 | Chess
+Basic Openings
+Play can continue.
+2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 (2...d6 and 2...e6 are also common, and usually also met by 3.d4)
+The Sicilian is the most common and best-scoring response to 1.e4, as it balances the white
+advantage with flank play. It discourages White from occupying the centre with 2.d4. After 2...cxd4
+White must either take the pawn back with the queen (and move it again after 3.Qxd4 Nc6) or
+sacrifice the pawn, usually with 3.c3.
+One problem with the Sicilian is that there is a vast amount of theory written on it, and in a
+sharp opening like this, you can wind up in trouble if you don't know it.
+French Defence
+1.e4 e6 2.d4 d5
+White has three essential continuations: 3.Nc3 "Winawer Variation" 3.Nd2 "Tarrasch
+Variation" 3.e5 "Advance Variation".
+A fourth alternative, the "Exchange Variation" is 3. exd5, but this actually frees Black's game
+Wikibooks | 41
+Chapter 5
+from all of the traditional cramping problems of the French Defence. It is mainly used by White
+players who forgo all attempts at a theoretical battle, hoping to play on "general principles".
+The French Defence is considered one of the strongest black responses to the White opening
+move 1.e4. Among world class grandmasters, it currently trails the Sicilian 1. e4 c5 and the
+symmetrical 1.e4 e5 in popularity.
+Pirc Defence
+1.e4 d6, usually followed by 2.d4 Nf6 3.Nc3 g6
+This opening bears considerable similarities to another one called the King's Indian, which
+begins 1. d4 Nf6 2. c4 g6 3. Nc3 Bg7. However, subtle but long range strategic differences exist
+between the two. In the Pirc, White's c-file pawn is still at home, and not committed to the c4
+square. This means that overall, White has better control of the d4 square. The pawn move c2-c4
+has been replaced by a developing piece move N-c3, and this "faster" development tends to
+encourage White towards central or kingside attacks compared with the queenside play classically
+associated with the King's Indian defense.
+42 | Chess
+Basic Openings
+Modern Defence
+1.e4 g6, usually followed by 2.d4 Bg7
+This move order is often used to "back into" a Pirc defense, while avoiding specific move order
+issues. However, an entirely different range of strategy is possible based upon ...c6 and ...d5.
+Wikibooks | 43
+Chapter 5
+Alekhine's Defence
+1.e4 Nf6, usually followed by 2.e5 Nd5 3.d4 d6
+This looks like a rather alarming opening for Black to play. Black lets White chase the knight
+around the board and use that time to build up the pawn centre. Black's plan is to show that White
+has expanded too quickly, and will find the pawn centre vulnerable. The disadvantage to this
+opening is that if White succeeds in maintaining it, White will have a serious and suffocating
+advantage in space.
+44 | Chess
+Basic Openings
+Scandinavian Defence
+1.e4 d5, usually followed by 2.exd5 Qxd5 3.Nc3 Qa5
+Playing d7-d5 is the main idea behind most of the semi-open games for black. Here it is played
+immediately for the price of an extra move with the queen after 3.Nc3.
+Long disparaged as the epitome of weak play "because moving the queen early wastes time", it
+was resurrected in the 1990s with a pawn move c7-c6, allowing the queen to retreat from a5 to c7
+when necessary. Now it is considered an attempt to reduce White's central pressure, and is popular
+among club players because White suddenly has to demonstrate some sophistication.
+Wikibooks | 45
+Chapter 5
+Queen's Pawn Openings
+Queen's Gambit
+1.d4 d5 2. c4
+46 | Chess
+Basic Openings
+2...e6 3.Nc3 Nf6 4.Bg5 Be7 leads to "Queen's Gambit Declined" variations.
+2...c6 (usually followed by 3.Nf3 Nf6 4.Nc3 dxc4) leads to the "Slav Defence".
+This is one of the opening "families" with interchangeable moves. It is quite possible to play
+both ...e6 and ...c6 (known as the Semi-Slav), and there are large numbers of interchangeable points
+called transpositions.
+Wikibooks | 47
+Chapter 5
+2...dxc4 is the "Queen's Gambit Accepted".
+Black has gained a pawn but Blace cannot keep it. If White wants it back White can play e2-e3
+at some point, threatening the pawn with the bishop and if Black tries to defend it with ...b5 Black
+will find the queenside severely weakened (and the pawn should fall anyway). Nonetheless, this is
+playable for Black as well, instead of trying to keep the pawn, it is best to develop quickly and
+strike back at the White centre.
+King's Indian Defence
+1.d4 Nf6 2. c4 g6
+48 | Chess
+Basic Openings
+3.Nc3 Bg7 4. e4 d6
+Popularised after World War II, the King's Indian Defence involves opposite sides strategies in
+a race between Black's mating attack vs. White's methodical attempts to unravel Black's Queenside.
+Wikibooks | 49
+Chapter 5
+At World Class level, there is some concern that Black's concept is very committal, leading
+Former Champion Garry Kasparov to discontinue his use of the opening shortly before he retired
+from the game. At any level below that, it is still very popular due to the deep developmental work
+by Fischer and Kasparov.
+Grünfeld Defence
+1.d4 Nf6 2.c4 g6
+50 | Chess
+Basic Openings
+3.Nc3 d5
+Looks a bit like a cross between the Queen's Gambit and the King's Indian Defense, but this
+opening is played differently from both of them. Black gives White an early opportunity to grab
+control of the centre with 4.cxd5 Nxd5 5.e4. Black will need to launch a counterattack against that
+centre, perhaps with ...c5 to stop White from getting the upper hand. If Black succeeds, the White
+centre may indeed be very vulnerable, if Blacks fails, the centre will be very dominating.
+Nimzo-Indian Defence
+1.d4 Nf6 2.c4 e6
+Wikibooks | 51
+Chapter 5
+3.Nc3 Bb4
+After 3.Nc3, White threatens to take control over the centre by playing 4.e4. The NimzoIndian, named after the hypermodern player Aron Nimzowitch, is one of the two main ways of
+preventing this (the other way is the direct 3...d5 which leads to the Queen's Gambit Declined).
+Black puts a bishop where it pins the White knight, and often intends to trade it off, surrendering the
+bishop pair but inflicting White with doubled pawns if needed to recapture with the b-pawn. White
+can avoid these doubled pawns by playing the queen to c2, but this costs time. On the other hand,
+Black has not staked out a big claim of the centre yet, and White can get a real space advantage if
+Black is careless.
+52 | Chess
+Basic Openings
+Queen's Indian Defence
+1.d4 Nf6 2.c4 e6
+3.Nf3 b6
+Wikibooks | 53
+Chapter 5
+Strategically, this opening is similar to the Nimzo-Indian. White has played 3.Nf3 rather than
+3.Nc3 so he is not threatening to grab the center with 4.e4 just yet. Playing the Nimzo-like 3...Bb4+
+anyway is possible (and called the Bogo-Indian) and tends to lead to rather quiet play. More usual is
+3...b6 which opens up for the bishop to go to b7 where it will continue the clamp-down on the e4-
+square, or to a6 where it will put pressure on White's pawn on c4.
+Modern Benoni
+1.d4 Nf6 2.c4 c5
+54 | Chess
+Basic Openings
+3.d5 e6
+Benko Gambit
+1.d4 Nf6 2.c4 c5
+Wikibooks | 55
+Chapter 5
+3.d5 b5
+Other openings
+English Opening
+1.c4
+56 | Chess
+Basic Openings
+Black's most common responses are:
+1...e5, a reversed Sicilian Defence
+1...c5
+Wikibooks | 57
+Chapter 5
+1...Nf6
+1...e6 (preparing 2...d5)
+58 | Chess
+Basic Openings
+and 1...c6 (preparing 2...d5)
+Réti Opening
+1.Nf3 d5 2.c4
+Wikibooks | 59
+Chapter 5
+King's Indian Attack
+1.Nf3 d5 2.g3
+60 | Chess
+The Endgame
+6 THE ENDGAME
+live version • discussion • edit lesson • comment • report an error • ask a question
+Basic Checkmates
+These include positions that have no pawns. When one side is ahead in material and has pawns,
+the easiest winning plan is typically to queen one or more pawns and use them to checkmate.
+The situations where one has a king and queen, or king and rook, versus a lone king occur very
+often and it is essential to know how checkmate is achieved in such cases. The other cases, with
+minor pieces (bishops and knights) are much more rare, but are covered here for completeness.
+King and Queen vs. King
+Sample starting position for K+Q vs. K mate
+Delivering checkmate with a king and queen against a lone king is quite easy. The basic
+technique involves driving the king to the edge of the board, which the queen can do by herself. It's
+faster if you use your king and queen together, but this increases the probability of a stalemate, so
+beginners should do it without the king. The technique described below will accomplish the mate in
+about 10 to 15 moves.
+Here's an example (see diagram on right):
+1.Qb5
+Cutting the black king off along the fifth rank.
+1...Ke6
+Wikibooks | 61
+Chapter 6
+1...Kc7 2.Qa6 limits Black's king to the last two ranks.
+Position after 2.Qc5
+2.Qc5 (see diagram)
+During this phase, notice how White's queen always stays a knight's move away from the black
+king, and how no checks are necessary (or even desirable). Moves like 2.Qc6+? only allow Black's
+king more freedom after 2...Ke5.
+2...Kf6 3.Qd5 Kg6 4.Qe5 Kf7
+After 4...Kh6 5.Qg3 White's goal has been achieved: the black king is trapped on the edge.
+White will then bring his king to f6 to force mate.
+5.Qd6 Kg7 6.Qe6 Kh7
+Black's king is forced to the edge of the board no matter what he does, e.g. 6...Kf8 7.Qd7.
+62 | Chess
+The Endgame
+Position after 8.Kb2
+7.Qg4 Kh6 8.Kb2 (see diagram)
+Now that Black's king is stuck, the white monarch comes in to finish off his adversary.
+8...Kh7 9.Kc3
+9.Qg5 doesn't spoil anything, but it isn't necessary. Unlike the king and rook vs. king mate,
+here Black's king doesn't have to be trapped in the corner.
+9...Kh8 10.Kd4
+10 Qg6=?? stalemate was what Black was hoping for. Beware of this trap!
+10...Kh7 11.Ke5 Kh8 12.Kf6 Kh7 13.Qg7#.
+A detailed analysis of this endgame based on the computer-generated database is in Analysis of
+KQK Endgame. This shows that for any "King and Queen vs. King" endgame, white to move can
+force checkmate in at most ten moves.
+King and Rook vs. King
+Sample starting position for K+R vs. K
+mate
+This mate takes longer to do than king and queen vs. king, because the king and rook have to
+work together to trap the opposing king on the edge (often in the corner). The most commonly
+taught technique involves confining the opposing king into a box using the rook, which is protected
+by its own king. Then, the box becomes smaller and smaller until the king is forced into the corner.
+From the diagram on the right:
+Wikibooks | 63
+Chapter 6
+1.Kc2 Ke5 2.Kd3 Kd5 3.Ra4 Ke5
+After the king's position is improved, the box can be constructed:
+4.Rd4
+The box is d8-d4-h4.
+Position after 5.Re4
+4...Kf5 5.Re4 (see diagram)
+Now it's e8-e4-h4.
+5...Kf6 6.Kd4
+The box can't be reduced immediately, so the king creeps closer.
+6...Kf5 7.Kd5 Kf6
+7...Kg5 8.Ke6 Kg6 9.Rf4 Kg5 10.Ke5 Kg6 11.Rf5 Kg7 12.Rf6 Kg8 13.Kf5 Kg7 14.Kg5 Kh7
+15.Rg6 Kh8 16.Kf6 Kh7 17.Kf7 Kh8 18.Rg6# is similar.
+64 | Chess
+The Endgame
+8.Re5
+Position after 15.Kf7
+Back to shrinking the box: the process repeats itself. Notice that just as in K+Q vs. K, no
+checks are necessary until the actual mate.
+8...Kf7 9.Re6 Kg7 10.Ke5 Kf7 11.Kf5 Kg7 12.Rf6 Kh7 13.Rg6 Kh8 14.Kf6 Kh7 15.Kf7
+(see diagram)
+Something important to know: if it somehow transpires that White reaches this position but it's
+his turn to move, all he has to do is move the rook anywhere along the sixth rank (except Rh6+ of
+course!). Then, Black's king is forced to move to h8, and White gives checkmate with Rh6#.
+15...Kh8 16.Rh6#.
+The alternative method is based on the opposition of the kings (see below) with the rook being far
+away. From the same starting position as before:
+1.Kc2 Ke5 2.Kd3 Kd5
+Once again, White must improve the position of his king first. Now, once the kings are in
+opposition, he checks along the fifth rank to push the black king back.
+Wikibooks | 65
+Chapter 6
+Position after 2...Kd5
+3.Ra5+ (see diagram)
+Black has no choice but to give ground.
+3...Kc6 4.Kd4 Kb6
+4...Kd6 5.Ra6+ immediately cuts Black off the sixth rank.
+5.Rg5 Kc6 6.Rh5 Kd6
+6...Kb6 7.Kc4 Kc6 8.Rh6+ is the same sort of thing.
+7.Rh6+ Ke7 8.Kd5 Kf7 9.Ke5 Kg7 10.Rb6 Kf7 11.Ra6 Ke7 12.Ra7+ Kd8 13.Ke6 Kc8
+14.Kd6 Kb8 15.Rg7 Kc8 16.Rh7 Kb8 17.Kc6 Ka8 18.Kb6 Kb8 19.Rh8#.
+Using either method, it should take about 15-20 moves to deliver the mate. Theoretically, it
+should take no longer than 16 moves to checkmate, but depending on the position, one might have
+to use a mixture of the two techniques to do this.
+Minor Piece Checkmates
+If white has only one minor piece against a lone king, it is not possible to arrange the pieces so
+that the black king is checkmated. If white has three pieces, the mate is easy. As we shall see, with
+two bishops white's job is relatively easy, with a bishop and knight it is somewhat harder, and with
+two knights it is typically impossible.
+66 | Chess
+The Endgame
+White to play
+The diagram at left shows a mate in 6 with two bishops.
+1. Bc2 Kf1 2. Bd2 Kg1 3. Kg3 Kf1 4. Bd3+ Kg1 5. Be3+ Kh1 6. Be4#
+If on the third move, black plays, Kh1, instead of Kf1, white responds with the line: 4. Be1 Kg1
+5. Bf2 Kh2 6. Be4++
+One other possibility remains. If 5. Bf2 Kf1, then white should respond: 6. Bd3++
+The bishops coordinate by taking adjacent diagonals, thus cutting off the opposing king.
+White to play
+In order to mate with a bishop and knight, white must force black's king to the corner that is the
+same color as his bishop - in this case the a8 square. This is not so easy to do, because the bishop
+and knight do not coordinate well in cutting off the opponent's king. Mate can always be forced
+unless black can win a white piece, but, even with best play, the mate may take over 30 moves.
+Wikibooks | 67
+Chapter 6
+In the position at right, much of the hard work has already been done. Black is being pressed in
+the direction of the a8 corner. Nevertheless, nine more moves are required to mate.
+1. Kd6 Kc8 2. Ke7 Kb7 3. Kd7 Kb8 4. Ba6 Ka7 5. Bc8 Kb8 6. Ne7 Ka7 (or 6. ... Ka8 7. Kc7
+Ka7 8. Nc6+ Ka8 9. Bb7++ ) 7. Kc7 Ka8 8. Bb7+ Ka7 9. Nc6++
+White to play
+When white has two knights against a bare king, it is impossible to mate without cooperation
+from black. The diagram at left illustrates his predicament. The black king is cornered, but white
+has no way to force checkmate. Moving either Nf3, or moving Nh3 all lead to stalemate. White can
+try for 1. Ne4 Kg1 2. Nf3+ Kh1?? 3. Nf2++, but instead black plays 2. ... Kf1 3. Nd4 (otherwise
+black can play Ke2, and white must corner him again) Ke1 and white still has a challenge to confine
+the black king.
+If black has one or more pawn, white may be able to win by cornering the black king with a
+king and one knight, and avoiding stalemate by letting black to advance his pawn, while the other
+knight administers mate. A number of such chess endings have been composed, some of which
+require as many 70 moves without a pawn move or capture. These compositions have some historic
+interest - they lead to the amendment of the "50 move draw rule" to exclude those positions in
+which it could be demonstrated that more moves were required.
+Pawn Endings
+Two important concepts in endgames only involving the kings and pawns are the rule of the
+square and the opposition.
+A passed pawn is a pawn that cannot be stopped from queening by an opponent's pawn. If both
+sides have one or more passed pawns, then the player with a protected passed pawn (protected by
+another pawn) is likely to have an advantage. If neither side has a protected passed pawn, then the
+player with an outside passed pawn (farthest from the other pawns) will most likely win.
+68 | Chess
+The Endgame
+The Rule of the Square
+The Rule of the Square
+The Rule of the Square is used to determine whether or not a passed pawn can queen when it
+is not supported by its own king and the enemy king is chasing it. The idea is shown by the diagram
+on the right:
+One side of the square is the line that extends from the pawn to the square on which it queens.
+The rule says: if the enemy king can reach the square of the pawn, then it can capture the pawn; if
+not, the pawn can queen without the aid of its own king. Remember that if the pawn is on its starting
+square, it can make a double step, so the square is the same as if the pawn has advanced one square.
+The rule is valid for all pawns, including rook's pawns.
+So, in the diagram, if it's White's turn to move, then Black's king is outside the square and
+White can queen: 1.e6 Kb5 2.e7 Kc6 3.e8Q+.
+If Black is to play, the pawn can't escape the king: 1...Kb5! (moving into the square) 2.e6
+Kc6 3.e7 Kd7 4.e8Q+ Kxe8 =.
+Wikibooks | 69
+Chapter 6
+The rule assumes that there is nothing stopping the king from taking the shortest route to chase
+the pawn. If there are pawns that might get in the way of the king then the rule does not apply:
+The position is the same as the first one, except that now there is a black pawn on c6. This
+pawn gets in the way of its own king, so that even if it's Black's turn to move he still loses: 1...Kb5
+(1...c5 2.e6! and Black's king cannot get into the c8-c6-e6-e8 square) 2.e6 Kb6 3.e7 Kc7 4.e8Q.
+The rule of the square can form a basis for tactics. In the position on the right, Black to move
+played 1...Kb4, entering the square of White's f-pawn. He thought that this would be good enough
+for a draw, but White played 2.d6!. After 2...cxd6 3.f5 the effect of White's sacrifice is clear: he has
+decoyed Black's pawn to the a3-f8 diagonal, where it obstructs Black's king. Now White simply
+promotes the pawn and wins. Black had no other choice but to take White's d-pawn on his second
+move as otherwise it would have queened.
+The Opposition
+When the two Kings stand next to each other so that there is one square between them, they are
+said to oppose each other (or to be in opposition). Because the rules of chess say that the King can't
+step to a square next to the opposite King, there is an invisible wall between the Kings that makes it
+impossible for them to advance forwards.
+The player who is not to move in such situation is said to have the opposition. Since his
+opponent can't move his King forwards, he has to move it sideways or backwards, and after that the
+other player gets to advance his King forwards, which is usually advantageous for him.
+70 | Chess
+The Endgame
+The kings are in opposition
+Let's consider the very simple position on the right that illustrates the opposition:
+If Black is to move, White has the opposition. Black can't move his King forwards, so he might
+play 1...Kd6 (1...Kf6 is the same in mirror image). Now the f5-square becomes available for the
+white King, so White's next move is 2. Kf5. If Black now moves his King to e7, White responds by
+moving his King to e5, when a position similar to the starting position has arisen, with the exception
+that the white King has advanced one square forwards and thus forced the black King to retreat one
+square.
+Now you might wonder what is the advantage of having the opposition. Let's add a Pawn to the
+previous position, and we get an example of how to queen the Pawn with the aid of the opposition
+(see diagram on right):
+Black to move, White wins. White to move draws.
+Now Black plays 1...Kd6, as in the previous example. White's first move is also the same,
+2.Kf5, advancing his King forwards. The play might go on 2...Kd7 3.Kf6 Kd6. Now it seems that
+Wikibooks | 71
+Chapter 6
+Black has the opposition, but we shouldn't forget that White doesn't have to move his King.
+Therefore the right move is 4.e4, when Black has to concede the opposition. Now White wins after
+4...Kd7 5.e5 Ke8 6.Ke6 Kd8 7. Kf7 Kd7 8.e6+ Kd6 9.e7 and the Pawn queens next move.
+Draw, whoever moves.
+This position might look like a simple win with White to move as well. However, in this case,
+the game is drawn. Black has the opposition, and he can use it to block the Pawn (if he is careful
+and doesn't blunder the opposition away). Play could begin with 1.Kf4 Kf6 2. e4 Ke6!. This is the
+only move that holds the draw. In this kind of position, when the defending King can't oppose the
+enemy King, he must never move backwards. Instead he always has to move sideways, and always
+to the file on which the opponent's Pawn stands. If Black had now played 2...Ke7?, White would
+have gained the opposition with 3.Ke5, and won the game as in the previous example. After 2...Ke6
+White has no way to force the Pawn through as long as Black carefully keeps the opposition. The
+play could continue 3.e5 Ke7 4.Kf5 Kf7 5.e6 Ke8 6.Kf6 Kf8 7.e7 Ke8 8.Ke6 stalemate.
+You need more than just a pawn and the opposition to win though. Take the position at right.
+Unlike the previous one, White's king is behind the pawn, and this is enough to ensure black a draw.
+Assuming black to move (so white has the opposition) the game might continue 1. ... Kd7 2. Kc5
+Kc7 3. d6+ Kd7 4. Kd5 Kd8 5. Kc6 Kc8 6. d7+ Kd8 7. Kd6 stalemate.
+72 | Chess
+The Endgame
+Draw, whoever moves.
+Even if one side has a pawn advantage, his king is in front of the pawn, and he has the
+opposition, it may not be enough to win. A notable exception is shown at right, namely the rook
+pawn. Unlike the previous case, there is nothing white can do to force black out of the corner - thus
+his pawn can never queen.
+Outside Passed Pawn
+White wins.
+The position at right is a good example of an outside passed pawn. It is not that the pawn is at
+the edge of the board - it is the fact that this pawn is far away from the other pawns, and acts as a
+decoy. It is often the case that in positions with an equal number of pawns that an outside passed
+pawn is sufficient advantage to win.
+Take the position at right as an example. White advances his passed pawn, and when the black
+king is far away, he captures all the black pawns, and queens his remaining pawn.
+Wikibooks | 73
+Chapter 6
+1. f5 Kd6 2. f6 Ke6 3. Kxc5 Kxf6 4. Kb6 Ke6 5. Kxa6 Kd7 6. Kb7 and the pawn queens.
+Protected Passed Pawn
+White wins.
+White's c pawn is a protected passed pawn - enough to win in this position, even when black
+has an outside passed pawn. White could easily fritter away this advantage, and even lose, after 1.
+c6+?? Kc7 2. Kc5 f5 3. Kd5 f4 4. Ke4 Kxc6 5. Kxf5 Kd5 6. Ke3 Kc4 (the outside passed pawn
+prevailed). The correct strategy is for White to threaten the f pawn with his king, and then trade the
+c pawn for the f pawn in such a way that he gets the opposition. Black cannot counter by attacking
+White's other pawns, because then the c pawn will queen.
+1. Ke5 Ke7 2. c6 Kd8 3. Kf6 Kc7 4. Kxf7 Kxc6 5. Ke6 Kc7 6. Kd5 Kb6 7. Kd6 Kb7 8. Kc5
+Ka6 9. Kc6 wins both pawns
+Probably better is the fighting alternative 1. Ke5 Kc6 2. Kf6 Kd5 3. Kxf7 Kc4 4. c6 Kb3 5. c7
+Kxa3 6. c8/Q Kxb4 7. Qe6 but white has no trouble stopping the black pawns and mating.
+74 | Chess
+The Endgame
+Draw.
+If the protected passed pawn is not so far advanced, it confers less of an advantage. The
+position at right, which has most of the pieces moved back two rows, actually provides Black with a
+slight advantage, but not enough to win against best defense. Black uses his outside passed pawn as
+a decoy, and then queens his b pawn, while white queens his c pawn.
+1. Ke3 Kc4 2. Ke2 (trying to stop black from penetrating) f4 3. Kd2 f3 4. Ke3 f2 5. Kxf2 Kd3
+6. Kf3 Kc2 7. c4 Kxb2 8. c5 Kxa3 9. c6 b2 10. c7 b1/Q 11. c8/Q
+Black is a pawn up in an ending with queens on the board. Black has an opportunity to play for
+a win, but such endings are generally drawn.
+External Links
+• View endgames involving the King+Knight+Pawn vs. King+Knight+Pawn
+• View endgames involving the King+Pawn vs. King+Pawn
+• View endgames involving the King+Queen+Pawn vs. King+Queen+Pawn
+• View endgames involving the King+Rook+Pawn vs. King+Rook+Pawn
+• View endgames involving the King+Bishop+Pawn vs. King+Bishop+Pawn
+Wikibooks | 75
+Chapter 7
+7 HISTORY & DOCUMENT NOTES
+Wikibook History
+This book was created on 2004-01-31 and was developed on the Wikibooks project by the
+contributors listed in the next section. The latest version may be found at
+http://en.wikibooks.org/wiki/Chess.
+PDF Information & History
+This PDF was created on 2006-07-17 based on the 2006-07-16 version of the Wikibook. A
+transparent copy of this document is available at Wikibooks:Chess/Printable version. An
+OpenDocument Text version of this PDF document and the template from which it was created is
+available upon request at Wikibooks:User talk:Hagindaz. A printer-friendly version of this
+document may be available at Wikibooks:Image:Chess_printable_version.pdf.
+Document Information
+• Pages: 84
+• Paragraphs: 7642
+• Words: 16405
+• Characters: 97952
+76 | Chess
+Authors, Bibliography, & Image Credits
+8 AUTHORS, BIBLIOGRAPHY, & IMAGE
+CREDITS
+Principal Authors
+• WarrenWilkinson (Contributions)
+• Dysprosia (Contributions)
+• Darvian (Contributions)
+• Tm chk (Contributions)
+• Bill Alexander (Contributions)
+• Author (Contributions)
+• Author (Contributions)
+All Authors, number of edits
+• Title Page: Anonymous,76 – WarrenWilkinson,52 – Dysprosia,13 - Chi Sigma,5 - Siroxo,3 - RobinH,2 - ZeroOne,2 -
+Hagindaz,2 - Garrett,2 - SamE,2 - Nielmo,2 - Wereon,2 - Derbeth,2 - Jlapointe,1 - Darvian,1 - Jguk,1 - Poiuyt Man,1 - ABCD,1 -
+LukeMeyers,1 - ThreeE,1 - Donarreiskoffer,1 - Cryptic,1 - Robert Horning,1 - ComplexZeta,1 - Gmcfoley,1 - Plaicy,1 - Eibwen,1 -
+BimBot,1 - Hehelol,1 – Adam7davies,1
+• Chapter 01: Playing the Game: Anonymous,42 - Darvian,7 - Bill Alexander,4 - Dragontamer,3 - Yorktown1776,3 -
+Chessmaniac,3 - SamE,2 - Timwi,2 - Chvsanchez,1 - Chi Sigma,1 - Orderud,1 - Jokes Free4Me,1 - Hagindaz,1 - SimRPGman,1 - G4sxe,1
+- Gmcfoley,1 - LeoTR,1 - Derbeth,1 - Snehalppatel,1 - Julians,1 - BimBot,1 - Strongbad,1 - ZeroOne,1 - Michael Slone,1 - Nadir1984,1
+• Chapter 02: Notating the Game: Anonymous,11 - DSYoungEsq,4 - Orderud,2 - Chvsanchez,2 - SimRPGman,1 -
+Chi Sigma,1 - Gmcfoley,1 - Seahen,1 - BimBot,1 - Hagindaz,1 - Darvian,1 - Robert Horning,1
+• Chapter 03: Tactics: Anonymous,31 - Jokes Free4Me,5 - Bjimba,3 - Orderud,2 - Strongbad,2 - BimBot,1 - ZeroOne,1 -
+Kb1cvh,1 - Hagindaz,1 - Darvian,1 - Popski,1 - Chvsanchez,1 - Sim man,1 - Snarius,1 - SimRPGman,1 - IRelayer,1
+• Chapter 04: Strategy: Anonymous,54 - Orderud,2 - Jokes Free4Me,2 - ZeroOne,2 - IRelayer,1 - Hagindaz,1 - Darvian,1 -
+Popski,1 - Strongbad,1 - Juan Ponderas,1 - Chvsanchez,1 - Magicmonster,1 - Justplainuncool,1 - SimRPGman,1
+• Chapter 05: Basic Openings: Anonymous,41 - Sjakkalle,7 - Secular mind,6 - Regre7,5 - Chvsanchez,3 - Orderud,2 -
+BimBot,1 - Fz5791,1 - Bill Alexander,1 - JECompton,1 - Hagindaz,1 - Darvian,1 - SimRPGman,1 - LeoTR,1
+• Chapter 06: The Endgame: Anonymous,39 - Tm chk,20 - Bill Alexander,13 - WalterC,2 - Derbeth,2 - Chessmaniac,2
+- Orderud,2 - Hagindaz,1 - Darvian,1 - SimRPGman,1 - Jokes Free4Me,1
+Image Credits
+Cover: ChessSet by Alan Light. (GFDL)
+Chessboard squares and pieces: Created by created by Arvindn and Klin and other
+members of WikiProject Chess, Some shapes were copied from the program xBoard.
+Released under either GPL or GFDL.
+Wikibooks | 77
+Chapter 9
+9 GNU FREE DOCUMENTATION LICENSE
+Version 1.2, November 2002
+Copyright (C) 2000,2001,2002 Free Software Foundation, Inc.
+51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+0. PREAMBLE
+The purpose of this License is to make a manual, textbook, or other functional and useful
+document "free" in the sense of freedom: to assure everyone the effective freedom to copy and
+redistribute it, with or without modifying it, either commercially or noncommercially. Secondarily,
+this License preserves for the author and publisher a way to get credit for their work, while not
+being considered responsible for modifications made by others.
+This License is a kind of "copyleft", which means that derivative works of the document must
+themselves be free in the same sense. It complements the GNU General Public License, which is a
+copyleft license designed for free software.
+We have designed this License in order to use it for manuals for free software, because free
+software needs free documentation: a free program should come with manuals providing the same
+freedoms that the software does. But this License is not limited to software manuals; it can be used
+for any textual work, regardless of subject matter or whether it is published as a printed book. We
+recommend this License principally for works whose purpose is instruction or reference.
+1. APPLICABILITY AND DEFINITIONS
+This License applies to any manual or other work, in any medium, that contains a notice placed
+by the copyright holder saying it can be distributed under the terms of this License. Such a notice
+grants a world-wide, royalty-free license, unlimited in duration, to use that work under the
+conditions stated herein. The "Document", below, refers to any such manual or work. Any member
+of the public is a licensee, and is addressed as "you". You accept the license if you copy, modify or
+distribute the work in a way requiring permission under copyright law.
+A "Modified Version" of the Document means any work containing the Document or a portion
+of it, either copied verbatim, or with modifications and/or translated into another language.
+A "Secondary Section" is a named appendix or a front-matter section of the Document that
+deals exclusively with the relationship of the publishers or authors of the Document to the
+Document's overall subject (or to related matters) and contains nothing that could fall directly
+within that overall subject. (Thus, if the Document is in part a textbook of mathematics, a
+Secondary Section may not explain any mathematics.) The relationship could be a matter of
+78 | Chess
+GNU Free Documentation License
+historical connection with the subject or with related matters, or of legal, commercial,
+philosophical, ethical or political position regarding them.
+The "Invariant Sections" are certain Secondary Sections whose titles are designated, as being
+those of Invariant Sections, in the notice that says that the Document is released under this License.
+If a section does not fit the above definition of Secondary then it is not allowed to be designated as
+Invariant. The Document may contain zero Invariant Sections. If the Document does not identify
+any Invariant Sections then there are none.
+The "Cover Texts" are certain short passages of text that are listed, as Front-Cover Texts or
+Back-Cover Texts, in the notice that says that the Document is released under this License. A FrontCover Text may be at most 5 words, and a Back-Cover Text may be at most 25 words.
+A "Transparent" copy of the Document means a machine-readable copy, represented in a
+format whose specification is available to the general public, that is suitable for revising the
+document straightforwardly with generic text editors or (for images composed of pixels) generic
+paint programs or (for drawings) some widely available drawing editor, and that is suitable for input
+to text formatters or for automatic translation to a variety of formats suitable for input to text
+formatters. A copy made in an otherwise Transparent file format whose markup, or absence of
+markup, has been arranged to thwart or discourage subsequent modification by readers is not
+Transparent. An image format is not Transparent if used for any substantial amount of text. A copy
+that is not "Transparent" is called "Opaque".
+Examples of suitable formats for Transparent copies include plain ASCII without markup,
+Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and
+standard-conforming simple HTML, PostScript or PDF designed for human modification. Examples
+of transparent image formats include PNG, XCF and JPG. Opaque formats include proprietary
+formats that can be read and edited only by proprietary word processors, SGML or XML for which
+the DTD and/or processing tools are not generally available, and the machine-generated HTML,
+PostScript or PDF produced by some word processors for output purposes only.
+The "Title Page" means, for a printed book, the title page itself, plus such following pages as
+are needed to hold, legibly, the material this License requires to appear in the title page. For works
+in formats which do not have any title page as such, "Title Page" means the text near the most
+prominent appearance of the work's title, preceding the beginning of the body of the text.
+A section "Entitled XYZ" means a named subunit of the Document whose title either is
+precisely XYZ or contains XYZ in parentheses following text that translates XYZ in another
+language. (Here XYZ stands for a specific section name mentioned below, such as
+"Acknowledgements", "Dedications", "Endorsements", or "History".) To "Preserve the Title" of
+such a section when you modify the Document means that it remains a section "Entitled XYZ"
+according to this definition.
+The Document may include Warranty Disclaimers next to the notice which states that this
+License applies to the Document. These Warranty Disclaimers are considered to be included by
+reference in this License, but only as regards disclaiming warranties: any other implication that
+these Warranty Disclaimers may have is void and has no effect on the meaning of this License.
+Wikibooks | 79
+Chapter 9
+2. VERBATIM COPYING
+You may copy and distribute the Document in any medium, either commercially or
+noncommercially, provided that this License, the copyright notices, and the license notice saying
+this License applies to the Document are reproduced in all copies, and that you add no other
+conditions whatsoever to those of this License. You may not use technical measures to obstruct or
+control the reading or further copying of the copies you make or distribute. However, you may
+accept compensation in exchange for copies. If you distribute a large enough number of copies you
+must also follow the conditions in section 3.
+You may also lend copies, under the same conditions stated above, and you may publicly
+display copies.
+3. COPYING IN QUANTITY
+If you publish printed copies (or copies in media that commonly have printed covers) of the
+Document, numbering more than 100, and the Document's license notice requires Cover Texts, you
+must enclose the copies in covers that carry, clearly and legibly, all these Cover Texts: Front-Cover
+Texts on the front cover, and Back-Cover Texts on the back cover. Both covers must also clearly
+and legibly identify you as the publisher of these copies. The front cover must present the full title
+with all words of the title equally prominent and visible. You may add other material on the covers
+in addition. Copying with changes limited to the covers, as long as they preserve the title of the
+Document and satisfy these conditions, can be treated as verbatim copying in other respects.
+If the required texts for either cover are too voluminous to fit legibly, you should put the first
+ones listed (as many as fit reasonably) on the actual cover, and continue the rest onto adjacent
+pages.
+If you publish or distribute Opaque copies of the Document numbering more than 100, you
+must either include a machine-readable Transparent copy along with each Opaque copy, or state in
+or with each Opaque copy a computer-network location from which the general network-using
+public has access to download using public-standard network protocols a complete Transparent
+copy of the Document, free of added material. If you use the latter option, you must take reasonably
+prudent steps, when you begin distribution of Opaque copies in quantity, to ensure that this
+Transparent copy will remain thus accessible at the stated location until at least one year after the
+last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition
+to the public.
+It is requested, but not required, that you contact the authors of the Document well before
+redistributing any large number of copies, to give them a chance to provide you with an updated
+version of the Document.
+4. MODIFICATIONS
+You may copy and distribute a Modified Version of the Document under the conditions of
+80 | Chess
+GNU Free Documentation License
+sections 2 and 3 above, provided that you release the Modified Version under precisely this
+License, with the Modified Version filling the role of the Document, thus licensing distribution and
+modification of the Modified Version to whoever possesses a copy of it. In addition, you must do
+these things in the Modified Version:
+A. Use in the Title Page (and on the covers, if any) a title distinct from that of the Document,
+and from those of previous versions (which should, if there were any, be listed in the History
+section of the Document). You may use the same title as a previous version if the original
+publisher of that version gives permission.
+B. List on the Title Page, as authors, one or more persons or entities responsible for
+authorship of the modifications in the Modified Version, together with at least five of the
+principal authors of the Document (all of its principal authors, if it has fewer than five), unless
+they release you from this requirement.
+C. State on the Title page the name of the publisher of the Modified Version, as the publisher.
+D. Preserve all the copyright notices of the Document.
+E. Add an appropriate copyright notice for your modifications adjacent to the other copyright
+notices.
+F. Include, immediately after the copyright notices, a license notice giving the public
+permission to use the Modified Version under the terms of this License, in the form shown in
+the Addendum below.
+G. Preserve in that license notice the full lists of Invariant Sections and required Cover Texts
+given in the Document's license notice.
+H. Include an unaltered copy of this License.
+I. Preserve the section Entitled "History", Preserve its Title, and add to it an item stating at
+least the title, year, new authors, and publisher of the Modified Version as given on the Title
+Page. If there is no section Entitled "History" in the Document, create one stating the title,
+year, authors, and publisher of the Document as given on its Title Page, then add an item
+describing the Modified Version as stated in the previous sentence.
+J. Preserve the network location, if any, given in the Document for public access to a
+Transparent copy of the Document, and likewise the network locations given in the Document
+for previous versions it was based on. These may be placed in the "History" section. You may
+omit a network location for a work that was published at least four years before the Document
+itself, or if the original publisher of the version it refers to gives permission.
+K. For any section Entitled "Acknowledgements" or "Dedications", Preserve the Title of the
+section, and preserve in the section all the substance and tone of each of the contributor
+acknowledgements and/or dedications given therein.
+L. Preserve all the Invariant Sections of the Document, unaltered in their text and in their
+titles. Section numbers or the equivalent are not considered part of the section titles.
+M. Delete any section Entitled "Endorsements". Such a section may not be included in the
+Modified Version.
+N. Do not retitle any existing section to be Entitled "Endorsements" or to conflict in title with
+any Invariant Section.
+O. Preserve any Warranty Disclaimers.
+If the Modified Version includes new front-matter sections or appendices that qualify as
+Secondary Sections and contain no material copied from the Document, you may at your option
+designate some or all of these sections as invariant. To do this, add their titles to the list of Invariant
+Sections in the Modified Version's license notice. These titles must be distinct from any other
+Wikibooks | 81
+Chapter 9
+section titles.
+You may add a section Entitled "Endorsements", provided it contains nothing but endorsements
+of your Modified Version by various parties--for example, statements of peer review or that the text
+has been approved by an organization as the authoritative definition of a standard.
+You may add a passage of up to five words as a Front-Cover Text, and a passage of up to 25
+words as a Back-Cover Text, to the end of the list of Cover Texts in the Modified Version. Only
+one passage of Front-Cover Text and one of Back-Cover Text may be added by (or through
+arrangements made by) any one entity. If the Document already includes a cover text for the same
+cover, previously added by you or by arrangement made by the same entity you are acting on behalf
+of, you may not add another; but you may replace the old one, on explicit permission from the
+previous publisher that added the old one.
+The author(s) and publisher(s) of the Document do not by this License give permission to use
+their names for publicity for or to assert or imply endorsement of any Modified Version.
+5. COMBINING DOCUMENTS
+You may combine the Document with other documents released under this License, under the
+terms defined in section 4 above for modified versions, provided that you include in the
+combination all of the Invariant Sections of all of the original documents, unmodified, and list them
+all as Invariant Sections of your combined work in its license notice, and that you preserve all their
+Warranty Disclaimers.
+The combined work need only contain one copy of this License, and multiple identical
+Invariant Sections may be replaced with a single copy. If there are multiple Invariant Sections with
+the same name but different contents, make the title of each such section unique by adding at the
+end of it, in parentheses, the name of the original author or publisher of that section if known, or
+else a unique number. Make the same adjustment to the section titles in the list of Invariant Sections
+in the license notice of the combined work.
+In the combination, you must combine any sections Entitled "History" in the various original
+documents, forming one section Entitled "History"; likewise combine any sections Entitled
+"Acknowledgements", and any sections Entitled "Dedications". You must delete all sections
+Entitled "Endorsements."
+6. COLLECTIONS OF DOCUMENTS
+You may make a collection consisting of the Document and other documents released under
+this License, and replace the individual copies of this License in the various documents with a
+single copy that is included in the collection, provided that you follow the rules of this License for
+verbatim copying of each of the documents in all other respects.
+You may extract a single document from such a collection, and distribute it individually under
+82 | Chess
+GNU Free Documentation License
+this License, provided you insert a copy of this License into the extracted document, and follow this
+License in all other respects regarding verbatim copying of that document.
+7. AGGREGATION WITH INDEPENDENT WORKS
+A compilation of the Document or its derivatives with other separate and independent
+documents or works, in or on a volume of a storage or distribution medium, is called an "aggregate"
+if the copyright resulting from the compilation is not used to limit the legal rights of the
+compilation's users beyond what the individual works permit. When the Document is included in an
+aggregate, this License does not apply to the other works in the aggregate which are not themselves
+derivative works of the Document.
+If the Cover Text requirement of section 3 is applicable to these copies of the Document, then
+if the Document is less than one half of the entire aggregate, the Document's Cover Texts may be
+placed on covers that bracket the Document within the aggregate, or the electronic equivalent of
+covers if the Document is in electronic form. Otherwise they must appear on printed covers that
+bracket the whole aggregate.
+8. TRANSLATION
+Translation is considered a kind of modification, so you may distribute translations of the
+Document under the terms of section 4. Replacing Invariant Sections with translations requires
+special permission from their copyright holders, but you may include translations of some or all
+Invariant Sections in addition to the original versions of these Invariant Sections. You may include
+a translation of this License, and all the license notices in the Document, and any Warranty
+Disclaimers, provided that you also include the original English version of this License and the
+original versions of those notices and disclaimers. In case of a disagreement between the translation
+and the original version of this License or a notice or disclaimer, the original version will prevail.
+If a section in the Document is Entitled "Acknowledgements", "Dedications", or "History", the
+requirement (section 4) to Preserve its Title (section 1) will typically require changing the actual
+title.
+9. TERMINATION
+You may not copy, modify, sublicense, or distribute the Document except as expressly
+provided for under this License. Any other attempt to copy, modify, sublicense or distribute the
+Document is void, and will automatically terminate your rights under this License. However, parties
+who have received copies, or rights, from you under this License will not have their licenses
+terminated so long as such parties remain in full compliance.
+Wikibooks | 83
+Chapter 9
+10. FUTURE REVISIONS OF THIS LICENSE
+The Free Software Foundation may publish new, revised versions of the GNU Free
+Documentation License from time to time. Such new versions will be similar in spirit to the present
+version, but may differ in detail to address new problems or concerns. See
+http://www.gnu.org/copyleft/.
+Each version of the License is given a distinguishing version number. If the Document
+specifies that a particular numbered version of this License "or any later version" applies to it, you
+have the option of following the terms and conditions either of that specified version or of any later
+version that has been published (not as a draft) by the Free Software Foundation. If the Document
+does not specify a version number of this License, you may choose any version ever published (not
+as a draft) by the Free Software Foundation.
+External links
+• GNU Free Documentation License (Wikipedia article on the license)
+• Official GNU FDL webpage
+84 | Chess

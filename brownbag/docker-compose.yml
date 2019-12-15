@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  brownbag:
+    image: brownbag:${VERSION}
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    ports:
+    - 9001:9001
+    networks:
+      app_nw:
+    deploy:
+      restart_policy:
+        condition: on-failure
+      replicas: 1
+
+networks:
+  app_nw:
+    driver: overlay
