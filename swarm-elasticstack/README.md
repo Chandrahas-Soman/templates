@@ -5,7 +5,7 @@
 * You can read more about Elastic Stack from [here](https://www.elastic.co/) and
 * Docker Swarm from [here](https://docs.docker.com/engine/swarm/). 
 
-####Workflow:
+#### Workflow:
 
 node's docker container logs  -- filebeat -->  elasticsearch  -->  kibana
 
