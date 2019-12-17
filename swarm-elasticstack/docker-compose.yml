@@ -1,0 +1,122 @@
+version: "3.7"
+
+services:
+  # The environment variable "TAG" is used throughout this file to
+  # specify the version of the images to run. The default is set in the
+  # '.env' file in this folder. It can be overridden with any normal
+  # technique for setting environment variables, for example:
+  #
+  #   TAG=6.5.4 docker-compose up
+  #
+  # REF: https://docs.docker.com/compose/compose-file/#variable-substitution
+  #
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${TAG}
+    ports:
+      - 9200:9200
+    volumes:
+      - /usr/share/elasticsearch/data
+    container_name: elasticsearch
+    networks:
+      elk_nw:
+    deploy:
+      restart_policy:
+        condition: on-failure
+      replicas: 1
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${TAG}
+    build:
+      context: ./config/kibana
+      dockerfile: kibana_Dockerfile
+      args:
+        KIBANA_VERSION: ${TAG}
+    container_name: kibana
+    secrets:
+      - source: kibana.yml
+        target: /usr/share/kibana/config/kibana.yml
+    ports:
+      - 5601:5601
+    environment:
+      SERVER_NAME: "kibana"
+      SERVER_HOST: '"0"'
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    networks:
+      elk_nw:
+    depends_on: ['elasticsearch']
+    deploy:
+      restart_policy:
+        condition: on-failure
+      replicas: 1
+
+
+  filebeat:
+    image: filebeat:${TAG}
+    build:
+      dockerfile: filebeat_Dockerfile
+      context: ./config/filebeat
+      args:
+        FILEBEAT_VERSION: ${TAG}
+    container_name: filebeat
+    networks:
+      elk_nw:
+    deploy:
+      mode: global
+      restart_policy:
+        condition: on-failure
+    volumes:
+      # needed to persist filebeat tracking data :
+      - "filebeat_data:/usr/share/filebeat/data:rw"
+      # needed to access all docker logs (read only) :
+      - "/var/lib/docker/containers:/usr/share/dockerlogs/data:ro"
+      # needed to access additional information about containers
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    depends_on: ['elasticsearch','kibana']
+
+
+
+#  metricbeat:
+#    image: docker.elastic.co/beats/metricbeat:${TAG}
+#    container_name: metricbeat
+#    # The commented sections below enable Metricbeat to monitor the Docker host,
+#    # rather than the Metricbeat container. It's problematic with Docker for
+#    # Windows, however, since "/proc", "/sys" etc. don't exist on Windows.
+#    # The same likely applies to OSX (needs testing).
+#    # volumes:
+#    #   - /proc:/hostfs/proc:ro
+#    #   - /sys/fs/cgroup:/hostfs/sys/fs/cgroup:ro
+#    #   - /:/hostfs:ro
+#    command: --strict.perms=false -e  # -e flag to log to stderr and disable syslog/file output
+#    secrets:
+#      - source: metricbeat.yml
+#        target: /usr/share/metricbeat/metricbeat.yml
+#      - source: metricbeat.keystore
+#        target: /usr/share/metricbeat/metricbeat.keystore
+#      - source: ca.crt
+#        target: /usr/share/metricbeat/certs/ca/ca.crt
+#    volumes:
+#      - './scripts/setup-beat.sh:/usr/local/bin/setup-beat.sh:ro'
+#    networks: ['stack']
+#    depends_on: ['elasticsearch', 'kibana']
+#    healthcheck:
+#      test: metricbeat test config
+#      interval: 30s
+#      timeout: 15s
+#      retries: 5
+
+networks:
+  elk_nw:
+    driver: overlay
+#    external: true
+
+volumes:
+  es_data1:
+  # create a persistent volume for filebeat
+  filebeat_data:
+
+secrets:
+  kibana.yml:
+    file: ./config/kibana/kibana.yml
+#  filebeat.yml:
+#    file: ./config/filebeat/filebeat.yml

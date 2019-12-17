@@ -1,0 +1,20 @@
+# All basic Kibana setting are configured with environment variables in the docker-compose.yml file
+# Leaving this file in place for anyone that prefers to set things here
+
+#server.name: kibana
+#server.host: "0"
+
+#elasticsearch.url: http://elasticsearch:9200
+#elasticsearch.username: kibana
+#elasticsearch.password: changeme
+
+server.ssl.enabled: false
+#server.ssl.certificate: /usr/share/kibana/config/certs/kibana/kibana.crt
+#server.ssl.key: /usr/share/kibana/config/certs/kibana/kibana.key
+
+#xpack.monitoring.ui.container.elasticsearch.enabled: true
+xpack.security.enabled: false
+
+# The index Kibana should use. By default, Kibana will use an index named ".kibana".
+# If you want to isolate your visualizations/dashboards/index patterns from others, change This
+#kibana.index: ".kibana"
