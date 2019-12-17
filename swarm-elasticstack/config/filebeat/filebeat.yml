@@ -44,7 +44,7 @@ output.elasticsearch:
   #protocol: http
   template:
     name: "filebeat"
-    #    path: "my_fields.yml"
+    #    path: "custom_fields.yml"
     path: "fields.yml"
     #    overwrite: true
     overwrite: false
